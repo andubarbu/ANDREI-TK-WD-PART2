@@ -1,0 +1,28 @@
+// FOOTER
+
+footer{
+    padding: 3rem 0;
+    padding-right: 1.5rem;
+    padding-left: 3.5rem;
+    background-color: $secondary-grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .footer-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        p{
+            margin-left: 15px;
+            font-size: 14px;
+        }
+    }
+    nav a{
+        margin-left: 20px;
+        font-size: 14px;
+        color: $primary-color;
+        text-decoration: none;
+    }
+
+ }

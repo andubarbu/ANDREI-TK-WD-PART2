@@ -1,0 +1,45 @@
+// SECTION 2
+
+.section-2{
+    background-color: $secondary-grey;
+    padding: 5rem;
+    h1{
+        color: $primary-color;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 48px;
+        line-height: 80px;
+        letter-spacing: 0.4px;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+     .section-2-right{
+        margin-left: 3rem;
+        ol{
+            color: black;
+            list-style: none;
+            counter-reset: item;
+            font-family: Graphik;
+            font-size: 22px;
+            line-height: 52px;
+            height: 100%;
+            align-self: start;
+            li{
+                counter-increment: item;
+                &:before{
+                color: $primary-color;
+                margin-right: 10px;
+                content: counters(item, ".") ". ";
+                display: inline-block;
+                }
+            }
+        }
+    }
+    figure{
+        margin: 0;
+        align-self: center;
+        img{
+            width: 92.5%;
+        }
+    }
+}

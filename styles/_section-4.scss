@@ -1,0 +1,43 @@
+// SECTION 4
+
+.section-4{
+    background-color: $secondary-grey;
+    padding: 5rem;
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 10rem);
+        gap: 1.5rem;
+        justify-content: center;
+        width: 100%;
+        .grid-item{
+            margin: 0;
+            background-color: white;
+            width: 10.5rem;
+            height: 4.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0.5px solid lightgray;
+            .smaller{
+                width: 65%;
+                height: auto;
+            }
+        }
+        .grid-box{
+            background-color: $primary-color;
+            color: white;
+            grid-row: span 2;
+            grid-column: span 2;
+            width: 22rem;
+            height: 10.75rem;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: -0.1px;
+                padding: 2rem;
+            }
+        }
+    }
+}
