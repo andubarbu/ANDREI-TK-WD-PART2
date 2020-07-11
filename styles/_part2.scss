@@ -1,0 +1,14 @@
+.part2{
+    background-color: $primary-color;
+    color: white;
+    padding: 5rem;
+    line-height: 30px;
+    font-size: 18px;
+    grid-template-columns: 1.9fr 1fr;
+    h1, h2{
+        font-family: Graphik;
+    }
+    h2{
+        margin-left: 2rem;
+    }
+}
